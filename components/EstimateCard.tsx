@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { EstimateItem } from '../types';
 import { getIconForId, CURRENCY_SYMBOL } from '../constants';
 import { Check, Edit2 } from 'lucide-react';
@@ -10,6 +10,8 @@ interface EstimateCardProps {
 }
 
 export const EstimateCard: React.FC<EstimateCardProps> = ({ item, onToggle, onRateChange }) => {
+  const [imgError, setImgError] = useState(false);
+
   return (
     <div 
       className={`
@@ -22,12 +24,22 @@ export const EstimateCard: React.FC<EstimateCardProps> = ({ item, onToggle, onRa
       onClick={() => onToggle(item.id)}
     >
       {/* Image Header */}
-      <div className="relative h-32 w-full overflow-hidden">
-        <img 
-          src={item.image} 
-          alt={item.name}
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-        />
+      <div className="relative h-32 w-full overflow-hidden bg-slate-200">
+        {!imgError ? (
+          <img 
+            src={item.image} 
+            alt={item.name}
+            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            onError={() => setImgError(true)}
+          />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center bg-slate-200">
+             <div className="p-4 bg-white/50 rounded-full text-slate-500">
+               {getIconForId(item.id, "w-10 h-10")}
+             </div>
+          </div>
+        )}
+        
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         
         {/* Category Badge */}

@@ -25,7 +25,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 420, // Approx INR per bag
     description: 'High-grade PPC/OPC cement for foundation, slab, and masonry work.',
     color: '#94a3b8', // Slate 400
-    image: 'https://images.unsplash.com/photo-1588012886079-16527228a0cc?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'steel',
@@ -36,7 +36,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 75, // Approx INR per kg
     description: 'Fe550 TMT bars for superior structural strength and flexibility.',
     color: '#475569', // Slate 600
-    image: 'https://images.unsplash.com/photo-1626885614982-d5966a3666d3?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1530982011887-3cc11cc85693?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'bricks',
@@ -69,7 +69,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 90, // Approx INR per sqft (material)
     description: 'Double-charged vitrified tiles or granite/marble flooring.',
     color: '#0ea5e9', // Sky 500
-    image: 'https://images.unsplash.com/photo-1620626012053-1c1296269e6b?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4f9d?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'paint',
@@ -80,7 +80,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 350, // Approx INR per liter (premium emulsion)
     description: 'Interior and exterior weather-proof emulsion with 2 coats of putty.',
     color: '#a855f7', // Purple 500
-    image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'wood',
@@ -91,7 +91,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 150, // Cost factor per sqft area
     description: 'Teak wood main door, Sal wood frames, and flush doors.',
     color: '#854d0e', // Yellow 800
-    image: 'https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'electrical',
@@ -102,7 +102,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 130, // Cost factor per sqft
     description: 'Fire-resistant wiring, modular switches, and distribution boards.',
     color: '#eab308', // Yellow 500
-    image: 'https://images.unsplash.com/photo-1557064047-8975a5e378d3?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'plumbing',
@@ -113,7 +113,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 100, // Cost factor per sqft
     description: 'CPVC/UPVC pipes, water tanks, and sanitary fixtures.',
     color: '#06b6d4', // Cyan 500
-    image: 'https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'labor',
@@ -124,7 +124,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 550, // Approx INR per sqft built-up for labor contract
     description: 'Skilled masons, helpers, bar benders, and site supervision.',
     color: '#22c55e', // Green 500
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=800'
   }
 ];
 

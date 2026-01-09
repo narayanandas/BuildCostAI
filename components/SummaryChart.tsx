@@ -1,6 +1,7 @@
 import React from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts';
 import { EstimateItem } from '../types';
+import { CURRENCY_SYMBOL } from '../constants';
 
 interface SummaryChartProps {
   items: EstimateItem[];
@@ -29,7 +30,7 @@ export const SummaryChart: React.FC<SummaryChartProps> = ({ items }) => {
         <div className="bg-white p-3 border border-slate-100 shadow-xl rounded-lg text-sm">
           <p className="font-semibold text-slate-800">{payload[0].name}</p>
           <p className="text-blue-600 font-medium">
-            ${payload[0].value.toLocaleString()}
+            {CURRENCY_SYMBOL}{payload[0].value.toLocaleString('en-IN')}
           </p>
         </div>
       );
