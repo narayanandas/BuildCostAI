@@ -1,0 +1,5 @@
+{
+  "name": "BuildCost AI",
+  "description": "A smart construction estimation calculator with detailed material breakdowns, dynamic cost exclusions, and Gemini-powered project insights.",
+  "requestFramePermissions": []
+}
