@@ -36,7 +36,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 75, // Approx INR per kg
     description: 'Fe550 TMT bars for superior structural strength and flexibility.',
     color: '#475569', // Slate 600
-    image: 'https://images.unsplash.com/photo-1530982011887-3cc11cc85693?auto=format&fit=crop&q=80&w=800'
+    image: 'https://plus.unsplash.com/premium_photo-1677172321949-a2f6ef6e6ed9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 'bricks',
@@ -47,7 +47,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 10, // Approx INR per piece
     description: 'Premium red clay bricks or AAC blocks for thermal insulation.',
     color: '#ef4444', // Red 500
-    image: 'https://images.unsplash.com/photo-1590076215667-875d4ef2d743?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1629608444154-6d052691632f?q=80&w=439&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 'sand',
@@ -69,7 +69,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 90, // Approx INR per sqft (material)
     description: 'Double-charged vitrified tiles or granite/marble flooring.',
     color: '#0ea5e9', // Sky 500
-    image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4f9d?auto=format&fit=crop&q=80&w=800'
+    image: 'https://plus.unsplash.com/premium_photo-1682088053289-cb286ef69a99?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 'paint',
@@ -91,7 +91,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 150, // Cost factor per sqft area
     description: 'Teak wood main door, Sal wood frames, and flush doors.',
     color: '#854d0e', // Yellow 800
-    image: 'https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?auto=format&fit=crop&q=80&w=800'
+    image: 'https://plus.unsplash.com/premium_photo-1664300494539-313eac2a6095?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 'electrical',
@@ -113,7 +113,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 100, // Cost factor per sqft
     description: 'CPVC/UPVC pipes, water tanks, and sanitary fixtures.',
     color: '#06b6d4', // Cyan 500
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=800'
+    image: 'https://plus.unsplash.com/premium_photo-1664301972519-506636f0245d?q=80&w=896&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 'labor',
