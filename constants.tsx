@@ -25,7 +25,7 @@ export const MATERIALS_DB: MaterialItem[] = [
     baseRate: 420, // Approx INR per bag
     description: 'High-grade PPC/OPC cement for foundation, slab, and masonry work.',
     color: '#94a3b8', // Slate 400
-    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=800'
+    image: 'https://plus.unsplash.com/premium_photo-1682366278687-f1bba8c2a210?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     id: 'steel',
